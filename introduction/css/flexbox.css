@@ -57,3 +57,20 @@ section {
     margin: 10px;
     border-radius: 8px;
 }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+    width: 100%;
+    justify-content: center;
+}
+
+.container div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
