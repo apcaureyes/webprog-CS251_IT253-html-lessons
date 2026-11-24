@@ -1,7 +1,7 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Albert's Personal Profile</title>
@@ -9,9 +9,12 @@
 </head>
 <body>
 
-    <header>
+<div class="grid-container">
+
+    <header class="header">
         <h1>Albert Ashley U. Reyes</h1>
         <p>BSIT Student | Asia Pacific College</p>
+
         <nav>
             <a href="#about">About</a>
             <a href="#education">Education</a>
@@ -21,17 +24,25 @@
         </nav>
     </header>
 
-    <main>
+    <main class="content">
+
         <section id="about">
             <h2>About Me</h2>
             <p>
-                Hi! My name is <b>Albert Ashley U. Reyes</b>, but you can call me <b>Albert</b>. I enjoy playing computer games, hitting the gym, and taking random drives to unwind.
+                Hi! My name is <b>Albert Ashley U. Reyes</b>,
+                but you can call me <b>Albert</b>.
+                I enjoy playing computer games, hitting the gym,
+                and taking random drives to unwind.
             </p>
         </section>
 
         <section id="education">
             <h2>Education &amp; IT Experience</h2>
-            <p>Currently studying <b>BSIT (Bachelor of Science in Information Technology)</b> at <i>Asia Pacific College</i>.</p>
+
+            <p>
+                Currently studying <b>BSIT</b>
+                at <i>Asia Pacific College</i>.
+            </p>
 
             <table>
                 <thead>
@@ -40,13 +51,14 @@
                         <th>Details</th>
                     </tr>
                 </thead>
+
                 <tbody>
                     <tr>
-                        <td><b>Education</b></td>
+                        <td>Education</td>
                         <td>BSIT student at Asia Pacific College</td>
                     </tr>
                     <tr>
-                        <td><b>IT Experience</b></td>
+                        <td>IT Experience</td>
                         <td>Learning HTML, CSS, and GitHub hosting</td>
                     </tr>
                 </tbody>
@@ -71,26 +83,53 @@
             </ol>
         </section>
 
-     <section id="gallery">
-    <h2>Picture Gallery</h2>
-    <p>My Photos:</p>
-    
-    <img src="./Image (2).jpg" width="300" alt="Albert photo 1">
-    <img src="./Image (3).jpg" width="300" alt="Albert photo 2"> 
-    <img src="./Image (4).jpg" width="300" alt="Albert photo 3"> 
-    <img src="./Image (5).jpg" width="300" alt="Albert photo 4">
-</section>
+        <section id="gallery">
+            <h2>Picture Gallery</h2>
+            <p>My Photos:</p>
+
+            <div class="gallery">
+                <img src="./Image (2).jpg" alt="Albert photo 1">
+                <img src="./Image (3).jpg" alt="Albert photo 2">
+                <img src="./Image (4).jpg" alt="Albert photo 3">
+                <img src="./Image (5).jpg" alt="Albert photo 4">
+            </div>
+        </section>
 
         <section id="links">
             <h2>Links &amp; Resources</h2>
             <p>
                 Check out my code on my
-                <a href="https://github.com/apcaureyes/webprog-CS251_IT253-html-lessons" target="_blank">
+                <a href="https://github.com/apcaureyes/webprog-CS251_IT253-html-lessons"
+                   target="_blank">
                     GitHub Repository
                 </a>.
             </p>
         </section>
+
     </main>
+
+    <aside class="facts">
+        <h2>Personal Information</h2>
+        <ul>
+            <li>Name: Albert Ashley U. Reyes</li>
+            <li>Nickname: Albert</li>
+            <li>Course: BSIT</li>
+            <li>School: Asia Pacific College</li>
+        </ul>
+
+        <h2>My Interests</h2>
+        <ul>
+            <li>Computer Games</li>
+            <li>Going to the Gym</li>
+            <li>Driving</li>
+        </ul>
+    </aside>
+
+    <footer class="footer">
+        <p>Created by Albert Ashley U. Reyes | 2026</p>
+    </footer>
+
+</div>
 
 </body>
 </html>
